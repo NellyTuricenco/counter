@@ -6,6 +6,10 @@ button.onclick = function() {
   button.innerHTML = "Click me " + counter;
 };
 
+module.exports = {
+  onclick,  
+};
+
 // $ (function(){
 //     var count = counter;
 //     $("#clickme").on("click", function(){
